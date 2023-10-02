@@ -16,9 +16,9 @@ body, html {
 
 body {  
     background: 
-        /* linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), */
-        url('./res/story/Story_Res2.jpeg')
-        no-repeat center fixed;  
+        linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+        url('../res/Background_Old2.jpeg')
+        no-repeat center fixed;
     background-size: cover;
 }
 
@@ -247,3 +247,37 @@ h3.course-text {
     margin: 4px 2px;
     cursor: pointer;
 } */
+
+#text-div {
+    background-color: rgba(73, 73, 73, 0.400);
+    margin-top: 8%;
+    margin-left: 3%;
+    padding: 8px;
+    width: 45%;
+    height: 20%;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px black);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    /* transform: rotateY(50deg); */
+    /* background: repeating-linear-gradient(45deg, crimson 0, crimson .75em, transparent 0, transparent 2em) */
+    /* size: fit-content; */
+}
+
+.story-container {
+    /* position: relative; */
+}
+
+.story-image {
+    background-color: rgba(73, 73, 73, 0.400);
+    margin-top: 4%;
+    margin-left: 50%;
+    padding: 8px;
+    width: 45%;
+    height: 20%;
+    border-radius: 20px;
+    filter: drop-shadow(5px 5px 5px black);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    /* z-index: -99; */
+    /* position: absolute; */
+}

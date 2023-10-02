@@ -17,7 +17,7 @@ body, html {
 body {  
     background: 
         linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
-        /* url('./pages/res/story_res/Story_Res2.jpeg') */
+        url('./pages/res/Background_Old2.jpeg')
         no-repeat center fixed;  
     background-size: cover;
 }
