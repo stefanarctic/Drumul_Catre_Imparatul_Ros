@@ -1,6 +1,8 @@
 
 const startButton = document.getElementById('start-btn');
 
+const currentPage = 0;
+
 startButton.onclick = () => {
     location.href = './pages/page1/index.html';
 }

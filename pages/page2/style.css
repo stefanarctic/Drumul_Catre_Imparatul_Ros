@@ -319,3 +319,7 @@ h3.course-text {
     /* margin-right: 50rem; */
     /* z-index: 9; */
 }
+
+i {
+    color: green;
+}

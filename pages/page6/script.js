@@ -2,7 +2,7 @@
 const startButton = document.getElementById('start-btn');
 const nextStoryButton = document.getElementById('next-story-button');
 
-const currentPage = 1;
+const currentPage = 6;
 
 // startButton.onclick = () => {
 //     location.href = './pages/page1/index.html';
