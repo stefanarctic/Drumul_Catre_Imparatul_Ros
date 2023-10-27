@@ -30,7 +30,7 @@ const nextPage = () => {
 }
 
 const previousPage = () => {
-    const path = '';
+    let path = '';
     if(currentPage === 1)
         path = '../redirect.html';
     else

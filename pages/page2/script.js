@@ -15,10 +15,12 @@ document.onkeydown = e => {
     {
         location.reload();
         // console.log('reloaded');
-    } else if(e.key === 'ArrowRight')
+    }
+    else if(e.key === 'ArrowRight')
     {
         nextPage();
-    } else if(e.key === 'ArrowLeft')
+    }
+    else if(e.key === 'ArrowLeft')
     {
         previousPage();
     }
@@ -30,7 +32,7 @@ const nextPage = () => {
 }
 
 const previousPage = () => {
-    const path = '';
+    let path = '';
     if(currentPage === 1)
         path = '../redirect.html';
     else
