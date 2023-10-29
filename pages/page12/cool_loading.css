@@ -1,0 +1,17 @@
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50%);
+    transition: all 1s;
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}

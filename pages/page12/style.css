@@ -275,10 +275,10 @@ h3.course-text {
 
 #story-image {
     background-color: rgba(73, 73, 73, 0.400);
-    margin-top: 8%;
-    margin-left: 15%;
-    width: 70%;
-    height: 70%;
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 60%;
+    height: 60%;
     padding: 8px;
     border-radius: 20px;
     filter: drop-shadow(5px 5px 5px black);
@@ -328,12 +328,18 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 80vh;
+    width: 110%;
+    height: 70vh;
     /* background-color: black; */
 }
 
 #end-story-text {
     font-size: 250%;
     text-shadow: 3px 4px 7px black;
+}
+
+#end-story-text-container {
+    padding-left: 300px;
+    /* background-color: black; */
+    /* margin-right: 0; */
 }

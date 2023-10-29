@@ -10,9 +10,13 @@ startButton.onclick = () => {
 // document.addEventListener('onkeydown', )
 document.onkeydown = e => {
     // console.log('pressed key')
-    if(e.key === 'Escape')
+    if(e.key === 'Enter')
     {
-        location.reload();
-        // console.log('reloaded');
+        startButton.onclick();
     }
+}
+
+window.onload = () => {
+    // gsap.to('.main-content', { y: 100, duration: 0 });
+    // gsap.to('.main-content', { y: -100 });
 }
